@@ -1,0 +1,26 @@
+{
+  "name": "freshtemplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss build public/base.css -o public/app.css",
+    "watch": "tailwindcss build public/base.css -o public/app.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoritosEater69/freshTemplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DoritosEater69/freshTemplate/issues"
+  },
+  "homepage": "https://github.com/DoritosEater69/freshTemplate#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
+  }
+}
