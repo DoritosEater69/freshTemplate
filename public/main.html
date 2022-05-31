@@ -3,43 +3,130 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/fontawesome/css/all.css" rel="stylesheet">
   <link href="app.css" rel="stylesheet">
   <!-- UIkit CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/css/uikit.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/css/uikit.min.css" />
 
-<!-- UIkit JS -->
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit-icons.min.js"></script>
-<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit-icons.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
 </head>
 <body>
-  <main class="my-80" uk-parallax="opacity: 0,1">
-    <h1 class="text-4xl font-bold underline">
-      Hello world!
-    </h1>
-  </main>  
 
-  <main class="my-80" uk-parallax="opacity: 0,1">
-    <h1 class="text-4xl font-bold underline">
-      Hello world!
-    </h1>
-  </main>  
-  <main class="my-80" uk-parallax="opacity: 0,1">
-    <h1 class="text-4xl font-bold underline">
-      Hello world!
-    </h1>
-  </main>  
-  <main class="my-80" uk-parallax="opacity: 0,1">
-    <h1 class="text-4xl font-bold underline">
-      Hello world!
-    </h1>
-  </main>  
-  <main class="my-80" uk-parallax="opacity: 0,1">
-    <h1 class="text-4xl font-bold underline">
-      Hello world!
-    </h1>
-  </main>  
+  <nav class="flex flex-col md:flex-row justify-between p-10 shadow-xl">
+    <img src="gfx/placeholder.jpg" class="w-1/5 h-auto">
+    <ul class="flex flex-col md:flex-row gap-20">
+      <li>Link 1</li>
+      <li>Link 2</li>
+      <li>Link 3</li>
+      <li>Link 3</li>
+    </ul>
+  </nav>
+
+  <header class="grid grid-cols-1 md:grid-cols-2">
+    <img src="gfx/header.jpg">
+    <div class="flex flex-col justify-center ml-8">
+      <h1 class="text-black md:text-8xl font-bold uppercase">
+        Headline
+      </h1>
+      <h3 class="text-4xl text-black">
+        Subline
+      </h3>
+    </div>
+  </header>
+
+  <main class="">
+    <section class="grid grid-cols-2 gap-20">
+      <article class="flex flex-col gap-8 my-10">
+        <div class="grid grid-cols-3 gap-6">
+          <img class="rounded-2xl" src="gfx/header.jpg">
+          <img class="rounded-2xl" src="gfx/header.jpg">
+          <img class="rounded-2xl" src="gfx/header.jpg">
+        </div>
+        <div class="grid grid-cols-3 gap-6">
+          <img class="rounded-2xl" src="gfx/header.jpg">
+          <img class="rounded-2xl" src="gfx/header.jpg">
+          <img class="rounded-2xl" src="gfx/header.jpg">
+        </div>
+      </article>
+
+      <article class="flex flex-col items-center justify-center">
+        <h2 class="text-8xl text-black font-bold">Headline</h2>
+        <p class="text-xl">Lorem Ipsum Dolor amet blah blah</p>
+        <button class="bg-blue-500 rounded-full text-white font-bold uppercase px-16 py-2">Click</button>
+      </article>
+
+    </section>
+
+    <section class="my-10">
+      <article class="flex flex-col items-center">
+        <h2 class="text-8xl font-bold">Intro</h2>
+        <p>Lorem Ipsum Blah Blah</p>
+      </article>
+    </section>
+
+    <section class="grid grid-cols-1 md:grid-cols-3 text-center my-10">
+      <article class="flex flex-col">
+        <i class="fa-solid fa-certificate text-6xl"></i>
+        <h4 class="text-2xl font-bold">Title H4</h4>
+        <p>Lorem Ipsum Dolor Amet.</p>
+      </article>
+
+      <article class="flex flex-col">
+        <i class="fa-solid fa-certificate text-6xl"></i>
+        <h4 class="text-2xl font-bold">Title H4</h4>
+        <p>Lorem Ipsum Dolor Amet.</p>
+      </article>
+
+      <article class="flex flex-col">
+        <i class="fa-solid fa-certificate text-6xl"></i>
+        <h4 class="text-2xl font-bold">Title H4</h4>
+        <p>Lorem Ipsum Dolor Amet.</p>
+      </article>
+
+    </section>
+
+    <section class="my-10">
+      <article>Article</article>
+    </section>
+  </main>
+
+<footer class="">
+    <section class="grid grid-cols-3">
+      <article class="w-1/2">
+        <h4>Headline</h4>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+      </article>
+      <article class="w-1/2">
+        <h4>Headline</h4>
+        <ul class="flex flex-col">
+          <li>Link 1</li>          
+          <li>Link 2</li>          
+          <li>Link 3</li>          
+          <li>Link 4</li>          
+        </ul>
+      </article>
+      <article>
+        MAPS
+      </article>
+    </section>
+    <section class="grid grid-cols-1">
+      <article>
+        <ul class="flex flex-row gap-20 justify-center">
+          <li>FB</li>
+          <li>IG</li>
+          <li>TW</li>
+        </ul>
+      </article>
+    </section>
+</footer>
+
+<aside class="absolute">
+  Aside
+</aside>
 
 </body>
 </html>
