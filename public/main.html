@@ -16,116 +16,288 @@
 </head>
 <body>
 
-  <nav class="flex flex-col md:flex-row justify-between p-10 shadow-xl">
-    <img src="gfx/placeholder.jpg" class="w-1/5 h-auto">
-    <ul class="flex flex-col md:flex-row gap-20">
-      <li>Link 1</li>
-      <li>Link 2</li>
-      <li>Link 3</li>
-      <li>Link 3</li>
-    </ul>
-  </nav>
-
-  <header class="grid grid-cols-1 md:grid-cols-2">
-    <img src="gfx/header.jpg">
-    <div class="flex flex-col justify-center ml-8">
+  <header class="flex flex-row">
+    <div class="relative">
+      <img src="gfx/header.jpg" class="">
+    </div>
+    <div class="flex flex-col justify-center ml-8 right-20">
       <h1 class="text-black md:text-8xl font-bold uppercase">
-        Headline
+        Intro
       </h1>
       <h3 class="text-4xl text-black">
-        Subline
+        Niclas Koch<br>
+        Web-Designer
       </h3>
     </div>
   </header>
 
-  <main class="">
-    <section class="grid grid-cols-2 gap-20">
-      <article class="flex flex-col gap-8 my-10">
+  <main class="my-24">    
+    <section class="flex justify-center text-center">
+      <h1 class="text-8xl text-black font-bold uppercase">
+        Modern. Artsy. Simple.
+      </h3>
+    </section>
+
+    <section class="flex justify-center text-center">
+      <h1 class="text-8xl text-black font-bold uppercase">
+        Screendesign. Grafikdesign. Web-Design. Newsletter. Divi. Wordpress. 
+      </h3>
+    </section>  
+
+    <section class="flex flex-row gap-8 my-24 mx-24">      
+      <div class="flex flex-col justify-center ml-8">
+        <h1 class="text-black md:text-8xl font-bold uppercase">
+          Book me and find out
+        </h1>
+        <h3 class="text-4xl text-black">
+          I´m open to all everything.
+        </h3>
+      </div>
+      <img src="gfx/header.jpg" class="w-2/3">
+    </section>
+
+    <section class="flex flex-row gap-8 w-full bg-black px-24 py-24 my-24 w-full">            
+      <div class="flex-col w-full">
+        <aside class="flex flex-row w-3/4 gap-8 my-8 items-center">
+          <div>
+            <h2 class="text-2xl font-bold uppercase text-white">Photoshop / Illustrator </h2>
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+            <div class="bg-gray-600 h-2.5 rounded-full" style="width: 45%"></div>
+          </div>
+        </aside>
+        <aside class="flex flex-row w-3/4 gap-8 my-8">
+          <div>
+            <h2 class="text-2xl font-bold uppercase text-white">Tailwind</h2>
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+            <div class="bg-gray-600 h-2.5 rounded-full" style="width: 45%"></div>
+          </div>
+        </aside>
+        <aside class="flex flex-row w-3/4 gap-8 my-8">
+          <div>
+            <h2 class="text-2xl font-bold uppercase text-white">Basic Coding (HTML, CSS...)</h2>
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+            <div class="bg-gray-600 h-2.5 rounded-full" style="width: 45%"></div>
+          </div>
+        </aside>
+        <aside class="flex flex-row w-3/4 gap-8 my-8">
+          <div>
+            <h2 class="text-2xl font-bold uppercase text-white">Wordpress (Divi Builder)</h2>
+          </div>
+          <div class="w-full bg-white rounded-full h-2.5 dark:bg-white">
+            <div class="bg-gray-600 h-2.5 rounded-full" style="width: 45%"></div>
+          </div>
+        </aside>
+        <aside class="flex flex-row w-3/4 gap-8 my-8">
+          <div>
+            <h2 class="text-2xl font-bold uppercase text-white">Procreate</h2>
+          </div>
+          <div class="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
+            <div class="bg-gray-600 h-2.5 rounded-full" style="width: 45%"></div>
+          </div>
+        </aside>
+      </div>
+      <div class="flex flex-col justify-center ml-8 w-full w-3/4">
+        <h1 class="text-black md:text-8xl font-bold uppercase text-white">
+          Skills
+        </h1>
+      </div>
+    </section>
+
+    <section class="flex justify-center text-center">
+      <h1 class="text-8xl text-black font-bold uppercase">
+        Private life.
+      </h3>
+    </section>
+
+    <section class="flex gap-8 mx-24">
+      <article class="flex flex-col gap-8 my-10 w-3/4">
         <div class="grid grid-cols-3 gap-6">
-          <img class="rounded-2xl" src="gfx/header.jpg">
-          <img class="rounded-2xl" src="gfx/header.jpg">
-          <img class="rounded-2xl" src="gfx/header.jpg">
+          <img class="rounded-2xl blur-xl hover:blur-none transition hover:scale-110 ease-in-out" src="gfx/header.jpg">
+          <img class="rounded-2xl blur-xl hover:blur-none transition hover:scale-110 ease-in-out" src="gfx/header.jpg">
+          <img class="rounded-2xl blur-xl hover:blur-none transition hover:scale-110 ease-in-out" src="gfx/header.jpg">
         </div>
         <div class="grid grid-cols-3 gap-6">
-          <img class="rounded-2xl" src="gfx/header.jpg">
-          <img class="rounded-2xl" src="gfx/header.jpg">
-          <img class="rounded-2xl" src="gfx/header.jpg">
+          <img class="rounded-2xl blur-xl hover:blur-none transition hover:scale-110 ease-in-out" src="gfx/header.jpg">
+          <img class="rounded-2xl blur-xl hover:blur-none transition hover:scale-110 ease-in-out" src="gfx/header.jpg">
+          <img class="rounded-2xl blur-xl hover:blur-none transition hover:scale-110 ease-in-out" src="gfx/header.jpg">
         </div>
       </article>
 
-      <article class="flex flex-col items-center justify-center">
-        <h2 class="text-8xl text-black font-bold">Headline</h2>
+      <article class="flex flex-col items-center justify-center w-1/2">
+        <h2 class="text-8xl text-black font-bold">Photography</h2>
         <p class="text-xl">Lorem Ipsum Dolor amet blah blah</p>
-        <button class="bg-blue-500 rounded-full text-white font-bold uppercase px-16 py-2">Click</button>
+        <button class="bg-blue-500 rounded-full text-white font-bold uppercase px-16 py-2">Modal öffnet sich - mit Full view auf alles</button>
       </article>
 
     </section>
 
-    <section class="my-10">
-      <article class="flex flex-col items-center">
-        <h2 class="text-8xl font-bold">Intro</h2>
-        <p>Lorem Ipsum Blah Blah</p>
+    <section class="flex gap-8 mx-24 my-24 relative">
+      <article class="flex flex-col items-center justify-center w-full">
+        <h2 class="text-8xl text-black font-bold">Tattooing / Sketching</h2>
+        <p class="text-xl">Lorem Ipsum Dolor amet blah blah</p>
+        <button class="bg-blue-500 rounded-full text-white font-bold uppercase px-16 py-2">Modal öffnet sich - mit Full view auf alles</button>
       </article>
+
+      <div class="absolute top-0 left-0">
+        <img src="gfx/placeholder-tattoo.png">
+      </div>
+      <div class="absolute top-0 right-0">
+        <img src="gfx/placeholder-tattoo.png">
+      </div>
+      <div class="absolute top-32 -right-20">
+        <img src="gfx/placeholder-tattoo.png">
+      </div>
+      <div class="absolute top-32 -left-20">
+        <img src="gfx/placeholder-tattoo.png">
+      </div>
+      <div class="absolute top-32">
+        <img src="gfx/placeholder-tattoo.png">
+      </div>
+    </section>    
+
+    <section class="flex justify-center text-center">
+      <h1 class="text-8xl text-black font-bold uppercase">
+        Thats me.
+      </h3>
     </section>
 
-    <section class="grid grid-cols-1 md:grid-cols-3 text-center my-10">
-      <article class="flex flex-col">
-        <i class="fa-solid fa-certificate text-6xl"></i>
-        <h4 class="text-2xl font-bold">Title H4</h4>
-        <p>Lorem Ipsum Dolor Amet.</p>
-      </article>
+<section class="flex justify-center text-center">
+    <ol class="relative border-l-4 border-black">                  
+      <li class="mb-10 ml-6">            
+          <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-black rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <i class="fa-solid fa-asterisk text-white"></i>
+          </span>
+          <h3 class="flex justify-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Started Working as a Junior Web-Designer @Hylax<span class="bg-red-700 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ml-3">Latest</span></h3>
+          <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">15th October 2022</time>
+          <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Hylax is a young and modern Online-Marketing Agency, located @ Student-Influenced Bermuda-Dreieck in Bochum, NRW.</p>          
+      </li>   
+      <li class="mb-10 ml-6">            
+          <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-black rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <i class="fa-solid fa-asterisk text-white"></i>
+          </span>
+          <h3 class="flex justify-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Worked as an Web-Designer / Content Manager @Medicalvision GmbH</h3>
+          <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Till 15th September 2022</time>
+          <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Medicalvision is a medical-orienteed Full Service Communication Agency, located in Essen-Werden, NRW.</p>          
+      </li>  
+      <li class="mb-10 ml-6">            
+          <span class="flex absolute -left-3 justify-center items-center w-6 h-6 bg-black rounded-full ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <i class="fa-solid fa-asterisk text-white"></i>
+          </span>
+          <h3 class="flex justify-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Finished my Education as a Media Designer (Web/Print) @Medicalvision GmbH</h3>
+          <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">KP WANN</time>
+          <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Medicalvision is a medical-orienteed Full Service Communication Agency, located in Essen-Werden, NRW.</p>          
+      </li>    
+  </ol>
+</section>
 
-      <article class="flex flex-col">
-        <i class="fa-solid fa-certificate text-6xl"></i>
-        <h4 class="text-2xl font-bold">Title H4</h4>
-        <p>Lorem Ipsum Dolor Amet.</p>
-      </article>
+    <section class="flex flex-row gap-8 my-24 mx-24">      
+      <div class="flex flex-col justify-center ml-8">
+        <h1 class="text-black md:text-8xl font-bold uppercase">
+          26 Years old.
+        </h1>
+        <h3 class="text-4xl text-black">
+          Living in Essen, Germany. Currently employed. Open for all of your Projects.
+        </h3>
+      </div>
+      <img src="gfx/header.jpg" class="w-2/3 rounded-tl-full">
+    </section>    
 
-      <article class="flex flex-col">
-        <i class="fa-solid fa-certificate text-6xl"></i>
-        <h4 class="text-2xl font-bold">Title H4</h4>
-        <p>Lorem Ipsum Dolor Amet.</p>
-      </article>
 
+    <section class="gap-8 my-24 mx-24">      
+      <div class="grid grid-cols-3 w-full">
+
+        <div class="flex flex-col justify-center items-center">
+          <i class="fa-solid fa-forward-step text-8xl text-black "></i>
+          <h3 class="text-2xl uppercase font-bold">Fast.</h3>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <i class="fa-solid fa-forward-step text-8xl text-black "></i>
+          <h3 class="text-2xl uppercase font-bold">Clean.</h3>
+        </div>
+        <div class="flex flex-col justify-center items-center">
+          <i class="fa-solid fa-forward-step text-8xl text-black "></i>
+          <h3 class="text-2xl uppercase font-bold">Creative.</h3>
+        </div>        
+      </div>      
+    </section>    
+
+
+    <section class="flex justify-center text-center">
+      <h1 class="text-8xl text-black font-bold uppercase">
+        Contact me.
+      </h3>
     </section>
 
-    <section class="my-10">
-      <article>Article</article>
+    <section class="flex flex-row gap-8 my-24 mx-24">      
+      <div class="flex flex-col justify-center ml-8 text-center w-full">
+        <h1 class="text-black md:text-8xl font-bold uppercase">
+          Send me a message.
+        </h1>
+        <form>
+          <div class="flex">
+            <div class="relative z-0 w-1/2 mb-6 group">
+                <input type="email" name="vorname" class="flex py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                <label for="vorname" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Vorname</label>
+            </div>
+            <div class="relative z-0 w-1/2 mb-6 group">
+                <input type="email" name="vorname" class="flex py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                <label for="vorname" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Nachname</label>
+            </div>
+          </div>
+          <div class="relative z-0 w-full mb-6 group">
+              <input type="email" name="floating_email" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+              <label for="floating_email" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Email Adresse</label>
+          </div>         
+          <div class="grid xl:grid-cols-2 xl:gap-6">
+            <div class="relative z-0 w-full mb-6 group">
+                <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="floating_phone" id="floating_phone" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                <label for="floating_phone" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Telefonnummer</label>
+            </div>
+            <div class="relative z-0 w-full mb-6 group">
+                <input type="text" name="floating_company" id="floating_company" class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer" placeholder=" " required />
+                <label for="floating_company" class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Agentur / Firma</label>
+            </div>
+          </div>
+          <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Ready 4 TakeOff</button>
+        </form>       
+      </div>      
     </section>
   </main>
 
-<footer class="">
-    <section class="grid grid-cols-3">
+<footer class="px-12">
+    <section class="grid grid-cols-2">
       <article class="w-1/2">
-        <h4>Headline</h4>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+        <h2 class="text-black md:text-8xl font-bold uppercase">Headline</h2>
+        <p class="text-black md:text-4xl font-bold uppercase">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
       </article>
       <article class="w-1/2">
-        <h4>Headline</h4>
+        <h2 class="text-black md:text-8xl font-bold uppercase">Headline</h2>
         <ul class="flex flex-col">
-          <li>Link 1</li>          
-          <li>Link 2</li>          
-          <li>Link 3</li>          
-          <li>Link 4</li>          
+          <li class="text-4xl uppercase font-bold text-black">Link 1</li>          
+          <li class="text-4xl uppercase font-bold text-black">Link 2</li>          
+          <li class="text-4xl uppercase font-bold text-black">Link 3</li>          
+          <li class="text-4xl uppercase font-bold text-black">Link 4</li>          
         </ul>
-      </article>
-      <article>
-        MAPS
       </article>
     </section>
     <section class="grid grid-cols-1">
       <article>
         <ul class="flex flex-row gap-20 justify-center">
-          <li>FB</li>
-          <li>IG</li>
-          <li>TW</li>
+          <i class="fa-brands fa-facebook-f"></i>
+          <i class="fa-brands fa-instagram"></i>
         </ul>
       </article>
     </section>
 </footer>
 
-<aside class="absolute">
-  Aside
+<aside class="fixed top-0 left-0">
+  <div class="relative bg-black rounded-br-full pl-2 pr-14 py-4">
+    <h3 class="text-white font-bold uppercase">MESSAGE<br>ME<br>NOW</h3>
+    <i class="fa-solid fa-envelope text-white"></i>
+  </div>
 </aside>
 
 </body>
